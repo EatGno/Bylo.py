@@ -91,4 +91,4 @@ api_endpoint = get_api_endpoint()
 # Print the results
 print("BIGO ID:", bigo_id)
 print("Profile Motto:", profile_motto)
-print("Has Posts or Videos:", has_posts_
+print("Has Posts or Videos:", has_posts_or_videos)
