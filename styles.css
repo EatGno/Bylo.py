@@ -1,0 +1,27 @@
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.floatingBubble {
+    position: fixed;
+    top: 50%;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 9999;
+    background-size: cover;
+    animation: float 3s ease-in-out infinite;
+    transform: translateY(-50%);
+}
+
+#floatingBubble2 {
+    top: calc(50% + 65px);
+}
